@@ -2,7 +2,7 @@
 
 namespace App\Actions\Balance\Traits;
 
-use App\Modules\balances\Repositories\BalancesRepository;
+use App\Modules\Balance\Repositories\BalancesRepository;
 
 trait BalancesBaseTrait
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Actions\balance_logs\Traits;
+namespace App\Actions\Balance_logs\Traits;
 
-use App\Modules\balance_logs\Repositories\BalanceLogsRepository;
+use App\Modules\Balance_logs\Repositories\BalanceLogsRepository;
 
 trait BalanceLogsBaseTrait
 {

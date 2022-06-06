@@ -32,7 +32,9 @@ class BalanceUpdate
         foreach ($user as $key => $user_id) {
             $balances = $this->balancesModel->where('user_id', $user_id);
 
-            $response = $this->balancesModel->where('user_id', $user_id)->update(
+            $response = $this->balancesModel->updateBy([
+                    'user_id' => $balances->user_id
+                ],
                 $this->formatterData(
                     $params,
                     $balances,
